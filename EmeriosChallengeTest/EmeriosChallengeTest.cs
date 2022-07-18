@@ -4,7 +4,7 @@ using Xunit;
 
 namespace EmeriosChallengeTest
 {
-    public class UnitTest1
+    public class EmeriosChallengeTest
     {
         [Fact]
         public void ShouldMathLongestInHorizontal()
