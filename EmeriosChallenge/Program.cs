@@ -83,9 +83,8 @@ namespace EmeriosChallenge
         }
 
 
-        public static List<char> GetMaxOCurrance(string pathDireactory)
+        public static List<char> GetMaxOcurrance(string pathDireactory)
         {
-           
             string[] fileLines = File.ReadAllLines(pathDireactory, Encoding.UTF8);
             char[,] mat = new char[fileLines.Length, fileLines.Length];
             for (int i = 0; i < fileLines.Length; ++i)

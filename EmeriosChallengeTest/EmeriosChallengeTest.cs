@@ -13,7 +13,7 @@ namespace EmeriosChallengeTest
             var path = @"../../../Files/horizontal.txt";
 
             //act
-            var response = Program.GetMaxOCurrance(path);
+            var response = Program.GetMaxOcurrance(path);
 
             //assert
             Assert.Equal(new List<char>() { 'E', 'E', 'E', 'E', 'E', 'E' }, response);
@@ -26,7 +26,7 @@ namespace EmeriosChallengeTest
             var path = @"../../../Files/vertical.txt";
 
             //act
-            var response = Program.GetMaxOCurrance(path);
+            var response = Program.GetMaxOcurrance(path);
 
             //assert
             Assert.Equal(new List<char>() { 'Ñ', 'Ñ', 'Ñ', 'Ñ', 'Ñ' }, response);
@@ -40,7 +40,7 @@ namespace EmeriosChallengeTest
             var path = @"../../../Files/diagonal1.txt";
 
             //act
-            var response = Program.GetMaxOCurrance(path);
+            var response = Program.GetMaxOcurrance(path);
 
             //assert
             Assert.Equal(new List<char>() { 'D', 'D', 'D', 'D', 'D' }, response);
@@ -54,7 +54,7 @@ namespace EmeriosChallengeTest
             var path = @"../../../Files/diagonal2.txt";
 
             //act
-            var response = Program.GetMaxOCurrance(path);
+            var response = Program.GetMaxOcurrance(path);
 
             //assert
             Assert.Equal(new List<char>() { 'A', 'A', 'A', 'A', 'A', 'A' }, response);
